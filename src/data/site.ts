@@ -1,11 +1,10 @@
 export const siteSettings = {
-	brandName: "WuppyCMS Starter",
-	tagline: "A site built with Astro and Tailwind 4",
-	description:
-		"A clean, fast site generated with WuppyCMS. Replace this copy with your own story.",
+	brandName: "Lens & Light",
+	tagline: "Documentary photography · Minimal",
+	description: "A minimal photography portfolio with a gallery, about page and contact.",
 	email: "hello@example.com",
 	location: "Istanbul, Türkiye",
-	github: "",
+	github: "https://github.com/fuatcangnc/wuppycms-pages-test-1793264996",
 };
 
 export const navItems = [
