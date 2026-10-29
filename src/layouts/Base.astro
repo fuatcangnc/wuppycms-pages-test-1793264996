@@ -1,7 +1,7 @@
 ---
 import "../styles/global.css";
 import { navItems, siteSettings } from "../data/site";
-import ReeyaiBridge from "../components/ReeyaiBridge.astro";
+import WuppycmsBridge from "../components/WuppycmsBridge.astro";
 
 interface Props {
 	title?: string;
@@ -35,7 +35,7 @@ const {
 		<main class="mx-auto max-w-5xl px-6 py-16 sm:py-24">
 			<slot />
 		</main>
-		<ReeyaiBridge />
+		<WuppycmsBridge />
 		<footer class="border-t border-border">
 			<div class="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-6 py-8 text-xs text-muted-foreground">
 				<span>© {new Date().getFullYear()} {siteSettings.brandName}</span>
